@@ -20,6 +20,7 @@ import { definePluginSettings } from "@api/Settings";
 import ErrorBoundary from "@components/ErrorBoundary";
 import { Devs } from "@utils/constants";
 import { useTimer } from "@utils/react";
+import { formatDurationMs } from "@utils/text";
 import definePlugin, { OptionType } from "@utils/types";
 import { React } from "@webpack/common";
 
